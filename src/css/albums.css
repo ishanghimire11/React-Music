@@ -1,0 +1,129 @@
+.critiques {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.critiques h1 {
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+.Albums-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fa-spotify{
+    color: green;
+    
+} 
+
+.fa-soundcloud{
+    color: white;
+    background-color: orange;
+    padding: 0.2rem;
+    border-radius: 2rem;
+}
+
+
+
+.albums {
+    margin: 3rem;
+    background-color: rgb(233, 233, 233);
+    padding: 2rem 1rem 2rem 0;
+    width: 60%;
+    border-radius: 1rem;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+
+}
+
+.albums:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.album-cover {
+    width: 80%;
+}
+
+
+
+.image-container{
+    width: 50%;
+}
+
+
+
+.album-name{
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.artist-name {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: blue;
+}
+
+.release-date{
+    margin-bottom: 0.3rem;
+}
+
+.album-genre{
+    margin-bottom: 0.8rem;
+    color: blue;
+}
+
+.listen {
+    font-size: 1.5rem;
+    
+}
+
+.album-about{
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+}
+
+.listen i{
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+
+.fa-napster {
+    color: blue;
+    margin-left: 0.5rem;
+}
+
+.fa-youtube {
+    color: red;
+    margin-left: 0.5rem;
+    padding: 0.2rem;
+}
+
+.button-container {
+    text-align: center;
+    width: 60%;
+}
+
+.load-more {
+    padding-left:2rem;
+    padding-right:2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: 2px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.load-more:hover{
+    color: black;
+    background-color: rgb(196 205 120);
+}

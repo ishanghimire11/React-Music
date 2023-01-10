@@ -1,0 +1,51 @@
+.listitem {
+    color:red;
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    max-width: 95%;
+    margin:0 auto; 
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+
+.listitem {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 0 3rem;
+}
+
+.listitem:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#icon {
+    color:white;
+    font-size: 2rem !important;
+    margin-right:1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+#icon:hover{
+    color:red;
+}
+

@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.homecontainer{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+}
+
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#home-h1 {
+    color: rgb(133, 207, 133);
+    font-size: 5rem;
+    padding-top:2em;
+    padding-left: 1em;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#lesgo {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: 2px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+}   
+
+#lesgo:hover {
+    color: black;
+    background-color: rgb(196 205 120);
+}
+
+.homecontainer span {
+    color:rgb(9, 143, 9);
+}
+
+.homecontainer span:hover {
+    text-decoration: underline;
+}
+
+#jump-below {
+    color: brown;
+}
+
+.home-p {
+    color:white;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.home-container {
+
+    min-height: 100vh;
+    
+}
+
+.artist-search {
+    padding:1rem;
+    border-radius: 1rem;
+}
+
+
+
+.search-artist {
+    width: 60%;
+    margin-left: 20% ;
+    padding: 1rem;
+    border-radius: 2rem; 
+    font-size: 1.5rem;  
+    margin-right:0;
+    padding-left: 1.5rem;
+    outline:none;
+    border: none;
+    
+}
+
+
+
+
+.container2-home {
+    min-height: 110vh;
+    margin-top: 10rem;
+}
+
+.popularh3 {
+    font-size: 5rem;
+    color:brown;
+    text-align: center;
+}
+
+.popular-artist{
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.artist {
+    width: 30%;
+    margin-bottom: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.month {
+    margin-right: 2em;
+    border: 2px solid brown;
+    border-radius: 2rem;
+    margin-left: 5%;
+    padding: 2rem;
+    max-width: 37%;
+    margin-top: 2rem;
+
+}
+
+.month p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.get-ticket{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    background-color:brown;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 2px solid brown;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.get-ticket:hover {
+    background-color: rgb(196 205 120);
+    color: black;
+}
+
+.content {
+
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top:15em;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(0,0,0,.7);
+
+}
+
