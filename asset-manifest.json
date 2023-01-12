@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Music/static/css/main.21bed72c.css",
+    "main.js": "/React-Music/static/js/main.39f3e416.js",
+    "static/media/video-bg.mp4": "/React-Music/static/media/video-bg.ddacac9d7311f696d884.mp4",
+    "static/media/sza.webp": "/React-Music/static/media/sza.76cabe10eb0f97ff239d.webp",
+    "static/media/chrismartin.jpg": "/React-Music/static/media/chrismartin.fe8290f96092edd455d5.jpg",
+    "static/media/21.webp": "/React-Music/static/media/21.8d6cbcc5753855e52c70.webp",
+    "static/media/radiohead.webp": "/React-Music/static/media/radiohead.ccff3c314d7328525f20.webp",
+    "static/media/logo.svg": "/React-Music/static/media/logo.ca1d5d26ee8b117de7f73cc87f8b6ff4.svg",
+    "index.html": "/React-Music/index.html",
+    "main.21bed72c.css.map": "/React-Music/static/css/main.21bed72c.css.map",
+    "main.39f3e416.js.map": "/React-Music/static/js/main.39f3e416.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21bed72c.css",
+    "static/js/main.39f3e416.js"
+  ]
+}
