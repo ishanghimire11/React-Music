@@ -17,7 +17,7 @@ function App() {
 
           <Switch>
 
-            <Route exact path="/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/albums" component={Albums} />
             <Route exact path="/team" component={Team} />
             <Route exact path="/services" component={Services} />

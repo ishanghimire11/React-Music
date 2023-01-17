@@ -29,11 +29,11 @@ const List = () => {
         <header>
             <div className="container container2" id="top">
                 <div >
-                    <NavLink to="/home"><img src={logo} alt="" className="logo" /></NavLink>
+                    <NavLink to="/"><img src={logo} alt="" className="logo" /></NavLink>
                 </div>
                 <nav>
                     <div className="list">
-                        <NavLink to="/home" className="listitem">Home</NavLink>
+                        <NavLink to="/" className="listitem">Home</NavLink>
                         <NavLink to="/albums" className="listitem">Albums</NavLink>
                         <NavLink to="/team" className="listitem">Our Team</NavLink>
                         <NavLink to="/services" className="listitem">Services</NavLink>
