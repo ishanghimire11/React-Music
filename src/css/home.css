@@ -32,18 +32,15 @@ video {
     display: block;
     margin: auto;
     margin-top: 2rem;
-    padding-left:2rem;
-    padding-right:2rem;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
     color: white;
     background-color: brown;
     cursor: pointer;
     border-radius: 2rem;
     border: 2px solid rgb(0, 0, 0);
     text-transform: uppercase;
+    padding: 0.5rem 2rem;
 }   
 
 #lesgo:hover {
@@ -95,6 +92,7 @@ video {
     padding-left: 1.5rem;
     outline:none;
     border: none;
+    text-transform: capitalize;
     
 }
 
@@ -166,7 +164,8 @@ video {
     position: absolute;
     width: 100%;
     height: 100vh;
-    top:15em;
+    top:15vh;
+    z-index: 110;
 
 }
 
@@ -177,6 +176,7 @@ video {
     width: 100%;
     height: 100vh;
     background-color:rgba(0,0,0,.7);
+    z-index: 100;
 
 }
 

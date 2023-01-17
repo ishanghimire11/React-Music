@@ -12,7 +12,7 @@ const Home = () => {
         <div className="homecontainer">
             <div className="home-container">
                 <div className="overlay"></div>
-                <video src={ videobg } loop autoPlay></video>
+                <video src={ videobg } loop autoPlay muted></video>
                 <div className="content">
                     <h1 id="home-h1">Get your Tickets! </h1>
                     <input className="search-artist" type="text" placeholder="Search your favourite artist" />

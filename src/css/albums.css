@@ -1,3 +1,6 @@
+
+
+
 .critiques {
     margin-left: 3rem;
     margin-top: 2rem;
@@ -9,11 +12,31 @@
 }
 
 .Albums-container {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+@media only screen and (max-width: 1100px){
+   .Albums-container{
+    align-items: center;
+    width: 100%;
+   }
+
+   .albums{
+       min-width: 80%
+   }
+
+
+
+   .listen i{
+    font-size: 2rem !important;
+   }
+
+   .load-more{
+    font-size: 1rem;
+   }
+}
 
 .fa-spotify{
     color: green;
@@ -37,8 +60,6 @@
     border-radius: 1rem;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
-
 }
 
 .albums:hover {
@@ -52,7 +73,7 @@
 
 
 .image-container{
-    width: 50%;
+    min-width: 30%;
 }
 
 

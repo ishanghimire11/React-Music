@@ -1,7 +1,7 @@
 import { Switch, Route } from "react-router-dom"
 import Home from "../src/component/Home"
 
-import Contact from "./component/Contact";
+import Team from "./component/Team";
 import Services from "./component/Services";
 import Error from "./component/Error";
 import List from "./component/List";
@@ -16,9 +16,9 @@ function App() {
         
         <Switch>
 
-          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route path="/albums" component={Albums} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/team" component={Team} />
           <Route path="/services" component={Services} />
           <Route component={Error} />
           </Switch>
