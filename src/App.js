@@ -1,4 +1,4 @@
-import { Switch, Route } from "react-router-dom"
+import { BrowserRouter, Switch, Route } from "react-router-dom"
 import Home from "../src/component/Home"
 
 import Team from "./component/Team";
@@ -10,23 +10,25 @@ import Albums from "../src/component/Albums";
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <>
-        <List />
-        
-        <Switch>
 
-          <Route exact path="/home" component={Home} />
-          <Route path="/albums" component={Albums} />
-          <Route path="/team" component={Team} />
-          <Route path="/services" component={Services} />
-          <Route component={Error} />
+          <List />
+
+          <Switch>
+
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/albums" component={Albums} />
+            <Route exact path="/team" component={Team} />
+            <Route exact path="/services" component={Services} />
+            <Route component={Error} />
           </Switch>
+        
 
 
 
-      </>
     </div>
+    </BrowserRouter>
   );
 }
 

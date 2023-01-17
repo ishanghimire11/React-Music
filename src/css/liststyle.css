@@ -112,6 +112,12 @@ header {
 
 }
 
+@media only screen and (max-width:1750){
+    .loginphoto-container{
+        display: none;
+    }
+}
+
 .login-now h1 {
     text-transform: uppercase;
     padding-top: 1.5rem;
