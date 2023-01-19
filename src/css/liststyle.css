@@ -12,7 +12,9 @@ header {
     margin:0 auto; 
 
 }
-
+.logo-container{
+    width: fit-content;
+}
 .overflow-hidden{
     overflow: hidden;
 }
@@ -23,12 +25,78 @@ header {
     align-items: center;
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1050px){
 
     .list {
         display: none;
     }
+    .fa-bars,.fa-xmark{
+        display: inline !important;
+        color: white;
+        font-size: 1.5rem;
+        position: relative;
+    }   
+    .logo-container{
+        width: 40%;
+    }
+    .logo{
+        width: 50%;
+    }
+    .menu-container{
+        margin-right: 13%;
+    }
+    .small-list{
+        display: block;
+        position: absolute;
+        background-color: white;
+        width: 50%;
+        top:100%;
+        right: 18%;
+        z-index: 120;
+        text-align: center;
+        height: fit-content;
+        background-color: #131313;
+        padding: 1rem 0;
 
+        
+    }
+    .listitem{
+        display: block;
+        color: black !important;
+        text-align: center;
+        margin: 1rem auto !important;
+        background-color: white;
+        width: 70%;
+        padding: 0.8rem;
+        font-size: 1.2rem !important;
+        font-weight: lighter !important;
+
+        
+    }
+
+
+
+}
+
+@media only screen and (max-width: 800px){
+    .logo{
+        width: 70%;
+    }
+    .login{
+        padding: 0.4rem !important;
+        font-size: 1.2rem !important;
+    }
+    .fa-bars,.fa-xmark{
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+@media only screen and (max-width:630px){
+    .small-list{
+        right: 20%;
+    }
 }
 
 
@@ -112,9 +180,41 @@ header {
 
 }
 
-@media only screen and (max-width:1750){
+@media only screen and (max-width:1345px){
     .loginphoto-container{
         display: none;
+    }
+
+    .login-form{
+        display: flex;
+        
+    }
+    .login-now{
+        width: 70%;
+        
+    }
+    .register{
+        padding: 0.3rem !important;     
+        font-size: 1.3rem !important;   
+    }
+    .login-close{
+        font-size: 0.2rem !important;
+        position: absolute;
+        top:3%;
+        right: 5%;
+    }
+    .login-register {
+        display: block !important;
+    }
+
+}
+
+@media only screen and (max-width:450px){
+    .forget{
+        width: 50%;
+    }
+    .small-list{
+        right: 23%;
     }
 }
 
@@ -123,6 +223,16 @@ header {
     padding-top: 1.5rem;
     text-align: center;
     font-size: 2.5rem;
+}
+
+.sign-in{
+    font-size: 1.5rem;
+    background-color: brown;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    color: white;
 }
 
 .email {
@@ -135,8 +245,7 @@ header {
     border: none;
     border-bottom: 1px solid brown;
     font-size: 1.5rem;
-    
-}
+    }
 
 .email:focus {
     outline: none;
@@ -151,6 +260,10 @@ header {
     padding-top: 1rem;
 }
 
+.fa-bars,.fa-xmark{
+    color: white;
+    display: none;
+}
 
 
 .login-register {
